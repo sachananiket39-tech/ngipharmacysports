@@ -342,3 +342,31 @@ text-align:center;
 font-style:italic;
 color:#d1d5db;
 }
+.table-container{
+overflow-x:auto;
+}
+
+.points-table{
+width:100%;
+border-collapse:collapse;
+background:#132238;
+border-radius:15px;
+overflow:hidden;
+}
+
+.points-table th{
+background:#F4C430;
+color:#0D1B2A;
+padding:15px;
+text-align:center;
+}
+
+.points-table td{
+padding:15px;
+text-align:center;
+border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+.points-table tr:hover{
+background:#1B2E4B;
+  }
