@@ -370,3 +370,38 @@ border-bottom:1px solid rgba(255,255,255,0.1);
 .points-table tr:hover{
 background:#1B2E4B;
   }
+.fixture-card{
+background:linear-gradient(145deg,#162841,#0f1f33);
+padding:25px;
+border-radius:18px;
+margin-bottom:20px;
+border:1px solid rgba(244,196,48,0.25);
+}
+
+.fixture-card h3{
+color:#F4C430;
+margin:10px 0;
+}
+
+.fixture-status{
+display:inline-block;
+padding:6px 12px;
+border-radius:20px;
+font-size:12px;
+font-weight:700;
+}
+
+.upcoming{
+background:#f4c430;
+color:#0D1B2A;
+}
+
+.completed{
+background:#16a34a;
+color:white;
+}
+
+.live{
+background:#dc2626;
+color:white;
+}
